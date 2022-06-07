@@ -1,0 +1,10 @@
+ERROR - 2022-05-29 12:04:12 --> Column 'id_marca' cannot be null
+ERROR - 2022-05-29 12:06:41 --> Column 'id_marca' cannot be null
+ERROR - 2022-05-29 12:08:55 --> Column 'id_marca' cannot be null
+ERROR - 2022-05-29 12:32:36 --> Cannot add or update a child row: a foreign key constraint fails (`appserverinsumed`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`))
+ERROR - 2022-05-29 12:32:37 --> Cannot add or update a child row: a foreign key constraint fails (`appserverinsumed`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`))
+ERROR - 2022-05-29 12:32:38 --> Cannot add or update a child row: a foreign key constraint fails (`appserverinsumed`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`))
+ERROR - 2022-05-29 13:17:12 --> Unknown column 'marca.dmarca' in 'on clause'
+ERROR - 2022-05-29 13:17:18 --> Unknown column 'marca.dmarca' in 'on clause'
+ERROR - 2022-05-29 13:17:32 --> Unknown column 'marca.dmarca' in 'on clause'
+ERROR - 2022-05-29 13:17:40 --> Unknown column 'marca.dmarca' in 'on clause'

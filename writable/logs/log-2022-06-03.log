@@ -1,0 +1,135 @@
+CRITICAL - 2022-06-03 20:27:07 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:08 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:08 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:08 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:09 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:10 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:27:31 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:24 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:26 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:26 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:26 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:27 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:29:39 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:31:14 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:31:26 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\back-tecnomedica\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('data:image/jpeg...', 'update')
+#1 C:\xampp\htdocs\back-tecnomedica\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'data:image/jpeg...')
+#2 C:\xampp\htdocs\back-tecnomedica\app\Controllers\ConfiguracionController.php(205): CodeIgniter\Model->update(1, 'data:image/jpeg...')
+#3 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(832): App\Controllers\ConfiguracionController->upload_pic_historia()
+#4 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+#5 C:\xampp\htdocs\back-tecnomedica\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\back-tecnomedica\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
