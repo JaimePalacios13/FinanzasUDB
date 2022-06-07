@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    $('#table_id').DataTable();
+});
 $('.session-btn').on('click', () => {
     var user = $('#input_user').val(),
         pwd = $('#input_pwd').val()

@@ -19,4 +19,11 @@ class EntradasModel extends Model{
         $this->select('*');
         return $this->findAll();
     }
+
+    public function grafEntradas(){
+        $this->select('*,sum(monto) as sumaMontos');
+        $this->groupBy('fechaEntrada');
+        $this->groupBy('tipoEntrada');
+        return $this->findAll();
+    }
 }

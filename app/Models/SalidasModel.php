@@ -19,4 +19,11 @@ class SalidasModel extends Model{
         $this->select('*');
         return $this->findAll();
     }
+
+    public function grafSalidas(){
+        $this->select('*,sum(monto) as sumaMontos');
+        $this->groupBy('fechaSalida');
+        $this->groupBy('tipoSalida');
+        return $this->findAll();
+    }
 }

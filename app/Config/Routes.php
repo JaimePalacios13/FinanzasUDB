@@ -36,8 +36,17 @@ $routes->post('validateUser', 'LoginController::login');
 $routes->get('logout', 'LoginController::cerrar_session');
 
 /* DASHBOARD */
-$routes->get('home', 'HomeController::index');
+$routes->get('balance', 'HomeController::index');
 
+/* entradas */
+$routes->get('registros-de-entrada', 'EntradasController::index');
+$routes->post('saveEntrada', 'EntradasController::saveEntrada');
+$routes->get('grafEntradas', 'EntradasController::grafEntradas');
+
+/* salidas */
+$routes->get('registros-de-salida', 'SalidasController::index');
+$routes->post('saveSalida', 'SalidasController::saveSalida');
+$routes->get('grafSalidas', 'SalidasController::grafSalidas');
 
 
 /*

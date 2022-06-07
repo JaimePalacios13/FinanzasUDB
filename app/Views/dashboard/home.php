@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-sm">
             <h3>
-               <b> Balances de ingresos y salidas </b>
+                <b> Balances de ingresos y salidas </b>
             </h3>
         </div>
     </div>
@@ -30,7 +30,30 @@
                 <div class="tile-stats">
                     <div class="icon"><i class="fas fa-sack-dollar"></i></div>
                     <div class="count">$<?=$Disponibilidad?></div>
-                    <h3>Disponibilidad</h3>
+                    <h3>Balance General</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-sm-4 mt-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5>Grafico de Ingresos</h5>
+                </div>
+                <div class="col-12">
+                    <canvas id="myChart"></canvas>  
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mt-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5>Grafico de Salidas</h5>
+                </div>
+                <div class="col-12">
+                    <canvas id="myChartSalida"></canvas>  
                 </div>
             </div>
         </div>

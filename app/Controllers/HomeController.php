@@ -13,19 +13,13 @@ class HomeController extends BaseController
             $SalidasModel = new SalidasModel();
 
             /* SUMA DE LOS TOTALES DE ENTRADAS Y SALIDAS */
-            $resultEntrada = $EntradasModel->select('sum(monto) as montoSumaEntrada')->first();
-            $resultSalidas = $SalidasModel->select('sum(monto) as montoSumaSalida')->first();
+            $resultEntrada = $EntradasModel->select('sum(monto) as montoSumaEntrada')->findAll();
+            $resultSalidas = $SalidasModel->select('sum(monto) as montoSumaSalida')->findAll();
 
             /* SE VALIDA CUANDO NO HAY NINGUN REGISTRO SI NO HAY REGISTRO SE PONE 0 */
             /* FLOAT VAL CONVIERTE A FLOAT, Y NUMBERFORMAT ASIGNA DOS DECIMALES */
-            if ($resultEntrada['montoSumaEntrada'] == NULL || $resultSalidas['montoSumaSalida'] == NULL) {
-                $TotalEntrada = number_format(floatval(0),2);
-                $TotalSalida = number_format(floatval(0),2);
-            }else {
-                /* SINO ES NULL EXISTE UN DATO, SE CNVIERTE Y SE FORMATEA */
-                $TotalEntrada = number_format(floatval($resultEntrada['montoSumaEntrada']),2);
-                $TotalSalida = number_format(floatval($resultSalidas['montoSumaSalida']),2);
-            }
+            $TotalEntrada = $resultEntrada[0]['montoSumaEntrada'] == NULL ? number_format(floatval(0),2) :  number_format(floatval($resultEntrada[0]['montoSumaEntrada']),2);
+            $TotalSalida = $resultSalidas[0]['montoSumaSalida'] == NULL ? number_format(floatval(0),2) : number_format(floatval($resultSalidas[0]['montoSumaSalida']),2);
 
             /* SE SACA LA DISPONIBILIDAD SE FORMATEA */
             $disponibilidad = number_format(floatval($TotalEntrada - $TotalSalida),2);
