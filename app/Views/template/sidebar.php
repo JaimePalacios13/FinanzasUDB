@@ -29,9 +29,9 @@ session_start();
                             <h3>General</h3>
                             <ul class="nav side-menu">
                                 <li><a href=""><i class="fas fa-tachometer-alt-fast"></i> Home </a></li>
-                                <li><a href="<?= base_url() ?>/usuarios"><i class="fas fa-hand-holding-usd"></i> Registro de entradas </a>
-                                <li><a href="<?= base_url() ?>/categorias"><i class="fas fa-envelope-open-dollar"></i> Registro de salidas </a>
-                                <li><a href="<?= base_url() ?>/marcas"><i class="fas fa-file-invoice-dollar"></i> Reporte de balance </a>
+                                <li><a href="<?= base_url() ?>/registros-de-entrada"><i class="fas fa-hand-holding-usd"></i> Registro de entradas </a>
+                                <li><a href="<?= base_url() ?>/registros-de-salida"><i class="fas fa-envelope-open-dollar"></i> Registro de salidas </a>
+                                <li><a href="<?= base_url() ?>/reporte-de-balance"><i class="fas fa-file-invoice-dollar"></i> Reporte de balance </a>
                             </ul>
                         </div>
 
