@@ -28,7 +28,7 @@ $('.session-btn').on('click', () => {
             success: function(rsp) {
                 swal.close();
                 if (rsp == 'success') {
-                    window.location.href = baseURL + 'home'
+                    window.location.href = baseURL + 'balance'
                 } else {
                     $('#input_user').css('border-color', 'red')
                     $('#input_pwd').css('border-color', 'red')
