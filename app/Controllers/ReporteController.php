@@ -55,7 +55,7 @@ class ReporteController extends BaseController
  */
         try {
             $Pdfgenerator = new Pdfgenerator() ;
-            $html = "<html><body>Prueba</body></html>" ;
+            $html =  view('print/reporte');
             $Pdfgenerator->generate($html, 'prueba') ;
             } catch(Exception $e) {
             echo $e->getMessage() ;

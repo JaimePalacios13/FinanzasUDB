@@ -12,9 +12,14 @@
                     <div class="col-sm-8 mx-auto">
                         <div class="row">
                             <div class="col-sm-6"> <input type="month" name="" id="fecha_inicio" class="form-control"></div>
-<!--                             <div class="col-sm-6"> <input type="month" name="" id="fecha_fin" class="form-control"></div>
- -->                        </div>
+                            <!--                             <div class="col-sm-6"> <input type="month" name="" id="fecha_fin" class="form-control"></div>
+ -->
+                            <div class="col-sm-6">
+                                <a href="<?= base_url() ?>/print-reporte" class="btn btn-primary float-right">Imprimir reporte</a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
 
