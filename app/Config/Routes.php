@@ -52,7 +52,7 @@ $routes->get('grafSalidas', 'SalidasController::grafSalidas');
 /* reporte */
 $routes->get('reporte-de-balance', 'ReporteController::index');
 $routes->post('reportes/data/all', 'ReporteController::selectAll');
-$routes->get('print-reporte', 'ReporteController::print_reporte');
+$routes->post('print-reporte', 'ReporteController::print_reporte');
 
 
 
