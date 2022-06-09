@@ -64,17 +64,18 @@ class ReporteController extends BaseController
             $fileName = uniqid() . '.jpg';
             $path = $_SERVER['DOCUMENT_ROOT'] . '/finanzas/assets/upload/' . $fileName;
             file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/finanzas/assets/upload/' . $fileName, $fileData);
-            /*             header("Location: chart1.html");
- */
+
+            $data["path"] = $path;
+            $data["salidas"] = $this->SalidasModel->findAll();
+            $data["entradas"] = $this->EntradasModel->findAll();
+            $data["url"] = base_url();
+    
             $Pdfgenerator = new Pdfgenerator();
-            $html =  view('print/reporte');
-            $Pdfgenerator->generate($html, 'prueba');
+            $html =  view('print/reporte', $data);
+            $Pdfgenerator->generate($html, 'presupuesto mensual');
         } catch (Exception $e) {
             echo $e->getMessage();
         }
-
-        /*         $this->pdf->generar_pdf('modules/print/reporte', $data, "landscape", "presupuesto mensual");
- */
     }
 
 }

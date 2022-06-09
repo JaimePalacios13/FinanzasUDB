@@ -10,6 +10,12 @@ class Pdfgenerator  {
     public function generate($html, $filename='', $stream=TRUE, $paper = 'A4', $orientation = "portrait")
     {
     $dompdf = new DOMPDF();
+/*     $dompdf->set_base_path("http://localhost:8080/finanzas/assets/vendors/bootstrap/dist/css/bootstrap.css");
+    ob_start();
+    $html;
+    $htmlfin = ob_get_clean();
+ */ 
+    $html .= '<link rel="stylesheet" href="<?= $url ?>/assets/vendors/bootstrap/dist/css/bootstrap.css" media="print">';
     $dompdf->loadHtml($html);
     $dompdf->setPaper($paper, $orientation);
     $dompdf->render();

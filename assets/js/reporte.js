@@ -77,6 +77,40 @@ document.querySelector("#fecha_inicio").addEventListener("input", ()=>{
     refresh_datatables();
 });
 
-document.querySelector("#fecha_fin").addEventListener("input", ()=>{
-    refresh_datatables();
+
+/*  */
+
+var ctx = document.getElementById("chart1");
+var data = {
+    labels: ["Entradas", "Salidas"],
+    datasets: [{
+        label: '# Balance',
+        data: [20, 50],
+        backgroundColor: [
+            'rgba(15, 35, 201, 1)',
+            'rgba(231, 15, 64, 1)',
+        ],
+        borderColor: [
+            'rgba(200,200,200,1)',
+            'rgba(200,200,200,1)',
+        ],
+        borderWidth: 2
+    }]
+};
+var options = {
+    scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    }
+};
+var chart1 = new Chart(ctx, {
+    type: 'doughnut',
+    data: data,
+    options: options
 });
+
+var dataURL = ctx.toDataURL('image/jpg');
+//window.location.href = canvas.toDataURL("image/png");
