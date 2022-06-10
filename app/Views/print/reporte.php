@@ -7,10 +7,17 @@ function convertBase64($urlImage)
     $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
     echo  $base64;
 }
+
+$fecha_ini = new DateTime($fecha);
+$fecha_ini->modify('first day of this month');
+
+$fecha_fini = new DateTime($fecha);
+$fecha_fini->modify('last day of this month');
+
 ?>
 
 <link rel="stylesheet" href="<?= $url ?>/assets/vendors/bootstrap/dist/css/bootstrap.css" media="print">
-<h3 class="text-center">Reporte Mensual </h3>
+<h4 class="text-center">Reporte Mensual <?=$fecha_ini->format('Y-m-d')."/".$fecha_fini->format('Y-m-d')?></h4>
 
 <table class="w-100 mb-3">
     <tr>

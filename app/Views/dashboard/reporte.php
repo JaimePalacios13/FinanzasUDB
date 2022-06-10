@@ -9,11 +9,12 @@
                 <div class="row mb-4">
                     <div class="col-sm-8 mx-auto">
                         <div class="row">
+                        <form method="POST" action="<?= base_url() ?>/print-reporte" name="form" id="form">
+                                    <input type="hidden" name="base64" id="base64" />
+
                             <div class="col-sm-6"> <input type="month" name="" id="fecha_inicio" class="form-control"></div>
                             <div class="col-sm-6">
 
-                                <form method="POST" action="<?= base_url() ?>/print-reporte" name="form" id="form">
-                                    <input type="hidden" name="base64" id="base64" />
                                     <button type="submit" class="btn btn-primary float-right">
                                         Reporte PDF
                                     </button>

@@ -42,6 +42,8 @@ class ReporteController extends BaseController
     {
 
         $fecha = $this->request->getGet("fecha_inicio");
+        $this->request->getGet("fecha_inicio") != '' ? session()->set("fecha_inicio",$fecha) : session()->set("fecha_inicio","") ; 
+
         $data["salidas"] = $this->SalidasModel->where("date_format(fechaSalida,'%Y-%m')",$fecha)->findAll();
         $data["entradas"] = $this->EntradasModel->where("date_format(fechaEntrada,'%Y-%m')",$fecha)->findAll();
         echo json_encode($data);
@@ -68,9 +70,11 @@ class ReporteController extends BaseController
                         
             file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/finanzas/assets/upload/' . $fileName, $fileData);
             $data["path"] = $path;
-            $data["salidas"] = $this->SalidasModel->findAll();
-            $data["entradas"] = $this->EntradasModel->findAll();
+            $fecha = session()->get("fecha_inicio");
+            $data["salidas"] = $this->SalidasModel->where("date_format(fechaSalida,'%Y-%m')",$fecha)->findAll();
+            $data["entradas"] = $this->EntradasModel->where("date_format(fechaEntrada,'%Y-%m')",$fecha)->findAll();
             $data["url"] = base_url();
+            $data["fecha"] = $fecha;
 
             $Pdfgenerator = new Pdfgenerator();
             $html =  view('print/reporte', $data);
