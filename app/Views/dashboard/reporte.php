@@ -42,7 +42,7 @@
                             <tfoot>
                                 <tr>
                                     <td>Total</td>
-                                    <td></td>
+                                    <td id="t_entradas"></td>
                                 </tr>
                             </tfoot>
                         </table>
@@ -62,12 +62,17 @@
                             <tfoot>
                                 <tr>
                                     <td>Total</td>
-                                    <td></td>
+                                    <td id="t_salidas"></td>
                                 </tr>
                             </tfoot>
                         </table>
                     </div>
 
+                </div>
+
+                <div class="row mt-5 mb-2">
+                    <div class="col-sm-6 text-center font-weight-bolder text-primary" id="porcentaje_entradas"></div>
+                    <div class="col-sm-6 text-center font-weight-bolder text-danger" id="porcentaje_salidas"></div>
                 </div>
 
                 <div class="row">

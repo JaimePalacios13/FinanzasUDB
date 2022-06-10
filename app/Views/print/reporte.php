@@ -17,14 +17,14 @@ $fecha_fini->modify('last day of this month');
 ?>
 
 <link rel="stylesheet" href="<?= $url ?>/assets/vendors/bootstrap/dist/css/bootstrap.css" media="print">
-<h4 class="text-center">Reporte Mensual <?=$fecha_ini->format('Y-m-d')."/".$fecha_fini->format('Y-m-d')?></h4>
+<h4 class="text-center">Reporte Mensual <?= $fecha_ini->format('Y-m-d') . "/" . $fecha_fini->format('Y-m-d') ?></h4>
 
 <table class="w-100 mb-3">
     <tr>
         <td>
             <table class="table table-bordered w-100">
                 <tr colspan="2">
-                    <td>Entradas</td>
+                    <td colspan="2">Entradas</td>
                 </tr>
                 <thead>
                     <tr>
@@ -54,8 +54,10 @@ $fecha_fini->modify('last day of this month');
             </table>
         </td>
         <td>
-            <div class="text-center"><b>Salidas</b></div>
             <table class="table table-bordered w-100">
+                <tr colspan="2">
+                    <td colspan="2">Salidas</td>
+                </tr>
                 <thead>
                     <tr>
                         <th>Tipo</th>
@@ -86,7 +88,7 @@ $fecha_fini->modify('last day of this month');
         </td>
     </tr>
     <tr>
-        <td colspan="2" class="text-center"> Balance mensual $<?=$total_entradas-$total_salidas?></td>
+        <td colspan="2" class="text-center"> Balance mensual $<?= $total_entradas - $total_salidas ?></td>
     </tr>
 </table>
 
@@ -95,8 +97,8 @@ $fecha_fini->modify('last day of this month');
 <div class="row mb-5">
     <table class="w-100 ml-5">
         <tr>
-            <td class="text-primary">Entradas</td>
-            <td class="text-danger">Salidas</th>
+            <td class="text-primary"><b> Entradas <?= round(($total_entradas * 100) / ($total_entradas + $total_salidas), 2) ?>%</b></td>
+            <td class="text-danger"> <b> Salidas <?= round(($total_salidas * 100) / ($total_entradas + $total_salidas), 2) ?>%</b></th>
         </tr>
     </table>
 </div>

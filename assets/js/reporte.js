@@ -31,7 +31,7 @@ function refresh_datatables() {
           data_entry += ` 
                  <tr>
                       <td>${response.entradas[i]["tipoEntrada"]}</td>
-                      <td>${response.entradas[i]["monto"]}</td>
+                      <td>$${response.entradas[i]["monto"]}</td>
                   </tr>`;
 
           total_entradas += parseFloat(response.entradas[i]["monto"]);
@@ -41,7 +41,7 @@ function refresh_datatables() {
           data_out += ` 
            <tr>
                 <td>${response.salidas[i]["tipoSalida"]}</td>
-                <td>${response.salidas[i]["monto"]}</td>
+                <td>$${response.salidas[i]["monto"]}</td>
             </tr>`;
           total_salidas += parseFloat(response.salidas[i]["monto"]);
         }
@@ -77,7 +77,10 @@ var ctx = document.getElementById("chart1");
 
 function create_graq(total_entradas, total_salidas) {
  /*  $("#chart1").remove();  
-  */ var data = {
+  */ 
+ 
+ 
+ var data = {
     labels: ["Entradas", "Salidas"],
     datasets: [
       {
@@ -107,6 +110,15 @@ function create_graq(total_entradas, total_salidas) {
     data: data,
     options: options,
   });
+
+  document.querySelector("#t_entradas").textContent = "$"+total_entradas;
+  document.querySelector("#t_salidas").textContent = "$"+total_salidas;
+
+  tt = parseFloat(total_entradas) + parseFloat(total_salidas);
+
+  document.querySelector("#porcentaje_entradas").textContent = "Entradas: "+(parseFloat(total_entradas * 100) / tt).toFixed(2) + "%";
+  document.querySelector("#porcentaje_salidas").textContent = "Salidas: "+(parseFloat(total_salidas * 100) / tt).toFixed(2) + "%";
+ 
 }
 
 document.querySelector("#fecha_inicio").addEventListener("input", () => {
