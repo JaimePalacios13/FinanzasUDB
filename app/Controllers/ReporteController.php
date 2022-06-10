@@ -42,8 +42,8 @@ class ReporteController extends BaseController
     {
 
         $fecha = $this->request->getGet("fecha_inicio");
-        $data["salidas"] = $this->SalidasModel->findAll();
-        $data["entradas"] = $this->EntradasModel->findAll();
+        $data["salidas"] = $this->SalidasModel->where("date_format(fechaSalida,'%Y-%m')",$fecha)->findAll();
+        $data["entradas"] = $this->EntradasModel->where("date_format(fechaEntrada,'%Y-%m')",$fecha)->findAll();
         echo json_encode($data);
     }
 

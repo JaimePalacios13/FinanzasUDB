@@ -28,3 +28,210 @@ CRITICAL - 2022-06-09 21:43:09 --> Call to undefined function App\Controllers\im
 #2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+ERROR - 2022-06-09 22:47:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:47:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:47:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:47:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:47:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:47:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:47:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:47:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:47:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:47:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:48:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:48:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:48:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '}e_format(fechaSalida,'%Y-%m') IS NULL' at line 3
+CRITICAL - 2022-06-09 22:48:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:50:37 --> FUNCTION finanzas.dae_format does not exist
+CRITICAL - 2022-06-09 22:50:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:50:44 --> FUNCTION finanzas.dae_format does not exist
+CRITICAL - 2022-06-09 22:50:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:51:18 --> FUNCTION finanzas.dae_format does not exist
+CRITICAL - 2022-06-09 22:51:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:52:03 --> FUNCTION finanzas.dae_format does not exist
+CRITICAL - 2022-06-09 22:52:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:57:55 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:57:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(46): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:57:58 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:57:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(46): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:58:00 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:58:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(46): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:58:26 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:58:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:58:47 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:58:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 22:59:51 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 22:59:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:00:20 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:00:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:00:22 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:00:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:00:25 --> Unknown column 'fechaEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:00:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:04:52 --> Unknown column 'tipoEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:04:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:04:56 --> Unknown column 'tipoEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:04:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 23:05:03 --> Unknown column 'tipoEntrada' in 'where clause'
+CRITICAL - 2022-06-09 23:05:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\finanzas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\finanzas\app\Controllers\ReporteController.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(832): App\Controllers\ReporteController->selectAll()
+#3 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReporteController))
+#4 C:\xampp\htdocs\finanzas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\finanzas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
