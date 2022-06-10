@@ -92,6 +92,14 @@ $fecha_fini->modify('last day of this month');
 
 
 <h4 class="mt-2 mb-4 text-center">Gráfico de balance entradas vs salidas</h4>
+<div class="row mb-5">
+    <table class="w-100 ml-5">
+        <tr>
+            <td class="text-primary">Entradas</td>
+            <td class="text-danger">Salidas</th>
+        </tr>
+    </table>
+</div>
 <div class="row">
     <div class="col-sm-9 mx-auto">
         <img class="img-fluid" src="<?= convertBase64($path) ?>" alt="">
