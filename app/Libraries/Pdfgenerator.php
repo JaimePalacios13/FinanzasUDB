@@ -17,6 +17,7 @@ class Pdfgenerator  {
  */ 
     $html .= '<link rel="stylesheet" href="<?= $url ?>/assets/vendors/bootstrap/dist/css/bootstrap.css" media="print">';
     $dompdf->loadHtml($html);
+    $dompdf->set_base_path("http://localhost:8080/finanzas/assets/vendors/bootstrap/dist/css");
     $dompdf->setPaper($paper, $orientation);
     $dompdf->render();
 

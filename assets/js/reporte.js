@@ -9,9 +9,8 @@ $(document).ready(function () {
 
 function refresh_datatables() {
   fecha_inicio = $("#fecha_inicio").val();
-  fecha_fin = $("#fecha_fin").val();
 
-  data = { fecha_inicio, fecha_fin };
+  data = { fecha_inicio };
 
   console.log(data);
 
@@ -23,8 +22,6 @@ function refresh_datatables() {
     success: function (response) {
       $("#table-entradas").dataTable().fnDestroy();
       $("#table-salidas").dataTable().fnDestroy();
-
-      console.log(response.entradas);
 
       var data_entry = ` `;
       var data_out = ` `;
@@ -112,5 +109,5 @@ var chart1 = new Chart(ctx, {
     options: options
 });
 
-var dataURL = ctx.toDataURL('image/jpg');
-//window.location.href = canvas.toDataURL("image/png");
+/* var dataURL = ctx.toDataURL('image/jpg');
+ *///window.location.href = canvas.toDataURL("image/png");

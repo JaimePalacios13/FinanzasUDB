@@ -88,7 +88,9 @@
     document.getElementById('form').addEventListener("submit", function() {
         var ctx = document.getElementById("chart1");
 
-        var image = ctx.toDataURL(); // data:image/png....
+/*         var dataURL = ctx.toDataURL('image/jpg');
+ */        var image = ctx.toDataURL('image/png'); // data:image/png....
+        console.log(image);
         document.getElementById('base64').value = image;
     }, false);
 </script>

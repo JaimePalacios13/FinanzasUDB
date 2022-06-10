@@ -29,7 +29,7 @@ class ReporteController extends BaseController
                 echo view('dashboard/reporte');
                 echo view('template/footer');
             } else {
-                header('Location:' . base_url('/home'));
+                header('Location:' . base_url('/balance'));
                 exit();
             }
         } catch (\Throwable $th) {
@@ -40,6 +40,8 @@ class ReporteController extends BaseController
 
     public function selectAll()
     {
+
+        $fecha = $this->request->getGet("fecha_inicio");
         $data["salidas"] = $this->SalidasModel->findAll();
         $data["entradas"] = $this->EntradasModel->findAll();
         echo json_encode($data);
@@ -61,21 +63,20 @@ class ReporteController extends BaseController
             $img = $_POST['base64'];
             $img = str_replace('data:image/png;base64,', '', $img);
             $fileData = base64_decode($img);
-            $fileName = uniqid() . '.jpg';
+            $fileName = uniqid() . '.png';
             $path = $_SERVER['DOCUMENT_ROOT'] . '/finanzas/assets/upload/' . $fileName;
+                        
             file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/finanzas/assets/upload/' . $fileName, $fileData);
-
             $data["path"] = $path;
             $data["salidas"] = $this->SalidasModel->findAll();
             $data["entradas"] = $this->EntradasModel->findAll();
             $data["url"] = base_url();
-    
+
             $Pdfgenerator = new Pdfgenerator();
             $html =  view('print/reporte', $data);
-            $Pdfgenerator->generate($html, 'presupuesto mensual');
+            $Pdfgenerator->generate($html, 'Reporte Mensual');
         } catch (Exception $e) {
             echo $e->getMessage();
         }
     }
-
 }
