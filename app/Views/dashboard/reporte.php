@@ -1,3 +1,4 @@
+<?php $fecha_actual = date("Y-m")?>
 <div class="row">
     <div class="col-sm-12">
         <div class="card">
@@ -12,7 +13,7 @@
                         <form method="POST" action="<?= base_url() ?>/print-reporte" name="form" id="form">
                                     <input type="hidden" name="base64" id="base64" />
 
-                            <div class="col-sm-6"> <input type="month" name="" id="fecha_inicio" class="form-control"></div>
+                            <div class="col-sm-6"> <input type="month" value="<?=$fecha_actual?>" name="" id="fecha_inicio" class="form-control"></div>
                             <div class="col-sm-6">
 
                                     <button type="submit" class="btn btn-primary float-right">

@@ -72,9 +72,12 @@ function refresh_datatables() {
 
 /* Evento para hacer la petición cada vez que el usuario seleccione una nueva fecha */
 
+var ctx = document.getElementById("chart1");
+
+
 function create_graq(total_entradas, total_salidas) {
-  var ctx = document.getElementById("chart1");
-  var data = {
+ /*  $("#chart1").remove();  
+  */ var data = {
     labels: ["Entradas", "Salidas"],
     datasets: [
       {
@@ -97,6 +100,8 @@ function create_graq(total_entradas, total_salidas) {
       ],
     },
   };
+/*   document.querySelector("#contiene_chart").innerHTML = '<canvas id="chart1" width="400" height="100"></canvas>';
+ */
   var chart1 = new Chart(ctx, {
     type: "doughnut",
     data: data,

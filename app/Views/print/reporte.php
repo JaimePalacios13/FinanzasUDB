@@ -22,8 +22,10 @@ $fecha_fini->modify('last day of this month');
 <table class="w-100 mb-3">
     <tr>
         <td>
-            <div class="text-center"><b>Entradas</b></div>
             <table class="table table-bordered w-100">
+                <tr colspan="2">
+                    <td>Entradas</td>
+                </tr>
                 <thead>
                     <tr>
                         <th>Tipo</th>
@@ -83,9 +85,13 @@ $fecha_fini->modify('last day of this month');
             </table>
         </td>
     </tr>
+    <tr>
+        <td colspan="2" class="text-center"> Balance mensual $<?=$total_entradas-$total_salidas?></td>
+    </tr>
 </table>
 
 
+<h4 class="mt-2 mb-4 text-center">Gráfico de balance entradas vs salidas</h4>
 <div class="row">
     <div class="col-sm-9 mx-auto">
         <img class="img-fluid" src="<?= convertBase64($path) ?>" alt="">
