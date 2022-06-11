@@ -14,7 +14,7 @@ class LoginController extends BaseController
                 echo view('Login/login');
                 echo view('template/footer');
             }else {
-                header('Location:'.base_url('/home'));
+                header('Location:'.base_url('/balance'));
                 exit();
             }
         } catch (\Throwable $th) {
